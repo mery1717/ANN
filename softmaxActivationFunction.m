@@ -1,4 +1,5 @@
 function z=softmaxActivationFunction(inputs)
+%mostly used for output layer in the case of classification
 [M,N]=size(inputs);
 s=0;
 %calculer l'exponentiel de chaque case
